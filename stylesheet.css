@@ -269,8 +269,13 @@ figure {
 }
 
 figcaption {
-	font-size: 14px;
+	font-size: 10px;
 	line-height: 1.3em;
+}
+
+figure .photo-credit, .caption {
+	font-size: 15%;
+	color: var(--article-date-color);
 }
 
 sup {
