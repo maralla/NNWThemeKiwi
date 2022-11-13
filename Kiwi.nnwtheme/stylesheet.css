@@ -120,6 +120,16 @@ body > .systemMessage {
     vertical-align: middle;
 }
 
+.headerTitleSecondary .iconWrapper {
+	display: inline-block;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.headerTitleSecondary .headerDate {
+	margin-left: 24px;
+}
+
 .headerTitleSecondary .secondary, .headerTitleSecondary .secondary a {
 	color: var(--article-date-color);
 }
@@ -157,6 +167,7 @@ h1 {
 	font-size: 130%;
 	padding-bottom: 0;
 	margin-bottom: 9px;
+	margin-top: 13px;
 }
 
 h2 {
