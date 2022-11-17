@@ -115,15 +115,26 @@ body > .systemMessage {
 	#font-weight: bold;
 }
 
-.headerTitleSecondary span {
+.headerTitleSecondary {
+    vertical-align: middle;
+}
+
+.headerTitleSecondary .iconWrapper .wrapper {
     display: inline-block;
     vertical-align: middle;
+}
+
+.headerTitleSecondary .iconWrapper .wrapper .secondary {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 170px;
 }
 
 .headerTitleSecondary .iconWrapper {
 	display: inline-block;
 	vertical-align: middle;
-	white-space: nowrap;
 }
 
 .headerTitleSecondary .headerDate {
